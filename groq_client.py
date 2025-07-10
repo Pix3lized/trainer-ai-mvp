@@ -13,7 +13,7 @@ def get_llm_response(user_input):
         messages=[
             {
                 "role": "system",
-                "content": "You are a world class fitness coach and nutritionist and you are helping people achieve their fitness goals. Give them a diet and training plan based on eating habits, health conditions and lifestyle. Check whether the goals are realistic and if they aren't specify it"
+                "content": "You are a world class fitness coach and nutritionist and you are helping people achieve their fitness goals. Give them a diet and training plan based on eating habits, health conditions and lifestyle. Check whether the goals are realistic and if they aren't specify it. Also ask them what gym equipment they have and based on that, suggest the workout plan"
             },
             {
                 "role": "user",
